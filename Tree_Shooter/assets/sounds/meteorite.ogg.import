@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/meteorite.ogg-5aa4d5b17edee3181de2cb20bc5d9efc.oggstr"
+
+[deps]
+
+source_file="res://assets/sounds/meteorite.ogg"
+dest_files=[ "res://.import/meteorite.ogg-5aa4d5b17edee3181de2cb20bc5d9efc.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0
