@@ -1,0 +1,19 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://Scripts/main.gd" type="Script" id=1]
+[ext_resource path="res://PackedScenes/Player.tscn" type="PackedScene" id=2]
+[ext_resource path="res://PackedScenes/item.tscn" type="PackedScene" id=3]
+
+[node name="main" type="Node2D"]
+script = ExtResource( 1 )
+
+[node name="Player" parent="." instance=ExtResource( 2 )]
+position = Vector2( 512, 256 )
+
+[node name="Apple" parent="." instance=ExtResource( 3 )]
+position = Vector2( 371, 220 )
+item_type = 16
+
+[node name="Gem" parent="." instance=ExtResource( 3 )]
+position = Vector2( 698, 288 )
+item_type = 26

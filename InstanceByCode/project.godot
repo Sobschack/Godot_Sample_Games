@@ -15,9 +15,13 @@ _global_script_class_icons={
 
 [application]
 
-config/name="Signal"
+config/name="InstanceByCode"
 run/main_scene="res://Scenes/main.tscn"
 config/icon="res://Assets/icon.png"
+
+[display]
+
+window/size/height=640
 
 [rendering]
 
