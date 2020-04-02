@@ -15,9 +15,9 @@ _global_script_class_icons={
 
 [application]
 
-config/name="2DArray"
-run/main_scene="res://Scenes/main.tscn"
-config/icon="res://Assets/icon.png"
+config/name="GarbageProject"
+run/main_scene="res://Node2D.tscn"
+config/icon="res://icon.png"
 
 [display]
 
